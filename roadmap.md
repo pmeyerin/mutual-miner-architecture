@@ -30,3 +30,6 @@ Players will log in via google auth. By default playerId will be the email addre
 
 ### Update all relevant versions
 Ensure micronaut, Postgres, Flyway, and Node are all up-to-date
+
+### Add API support to web service
+For cases where the websocket is not the appropriate way to communicate between the client and web service, e.g. getting click count
